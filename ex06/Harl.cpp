@@ -32,19 +32,19 @@ void Harl::complain(std::string level)
 	switch (lvl)
 	{
 		case 0:
-			std::cout << "[DEBUG]" << std::endl;
+			std::cout << "[ DEBUG ]" << std::endl;
 			this->debug();
 			// fallthrough
 		case 1:
-			std::cout << "[INFO]" << std::endl;
+			std::cout << "[ INFO ]" << std::endl;
 			this->info();
 			// fallthrough
 		case 2:
-			std::cout << "[WARNING]" << std::endl;
+			std::cout << "[ WARNING ]" << std::endl;
 			this->warning();
 			// fallthrough
 		case 3:
-			std::cout << "[ERROR]" << std::endl;
+			std::cout << "[ ERROR ]" << std::endl;
 			this->error();
 			break ;
 		default:
